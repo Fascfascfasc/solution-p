@@ -987,9 +987,6 @@ div.wpcf7 img.ajax-loader {
 }
 /*  E N D  O F  section_intro.less  */
 /*  S T A R T  O F  section_services.less  */
-.section_services {
-  min-height: 660px;
-}
 .section_services .section__header {
   padding: 20px;
   font-size: 34px;
@@ -1120,7 +1117,7 @@ div.wpcf7 img.ajax-loader {
   .section_services .services {
     max-width: 400px;
     padding-bottom: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .section_services .service__img {
     margin-bottom: 10px;
