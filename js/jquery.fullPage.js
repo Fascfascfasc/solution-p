@@ -141,7 +141,7 @@
             resetSliders: false,
             fadingEffect: false,
             normalScrollElements: null,
-            scrollOverflow: false,
+            scrollOverflow: true,
             scrollOverflowHandler: iscrollHandler,
             scrollOverflowOptions: null,
             touchSensitivity: 5,
@@ -163,7 +163,7 @@
             fixedElements: null,
             responsive: 0, //backwards compabitility with responsiveWidth
             responsiveWidth: 0,
-            responsiveHeight: 559,
+            responsiveHeight: null,
             responsiveSlides: false,
 
             //Custom selectors
