@@ -546,7 +546,7 @@ div.wpcf7 img.ajax-loader {
   .btns {
     display: inline-block;
     max-width: 360px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
   .btn {
     margin: 0;
@@ -917,7 +917,6 @@ div.wpcf7 img.ajax-loader {
 /*  E N D  O F  mslide-nav.less  */
 /*  S T A R T  O F  section_intro.less  */
 .section_intro {
-  min-height: 550px;
   color: #000000;
 }
 .logo__img {
@@ -965,9 +964,9 @@ div.wpcf7 img.ajax-loader {
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
-@media only screen and (min-width: 320px) and (max-width: 699px) {
-  .section_intro .section__desc {
-    padding-bottom: 20px;
+@media only screen and (max-height: 409px) {
+  .section_intro .next-page-link {
+    display: none;
   }
 }
 @media only screen and (min-width: 700px) and (max-width: 929px) {
@@ -1246,9 +1245,6 @@ div.wpcf7 img.ajax-loader {
 }
 /*  E N D  O F  section_services.less  */
 /*  S T A R T  O F  section_projects.less  */
-.section_projects {
-  min-height: 550px;
-}
 .projects_icon {
   position: relative;
   height: 176px;
@@ -1259,10 +1255,11 @@ div.wpcf7 img.ajax-loader {
 .section_projects .btn_blue {
   max-width: 280px;
   float: none;
+  margin-bottom: 60px;
 }
 @media only screen and (min-width: 320px) and (max-width: 699px) {
   .section_projects .projects_icon {
-    padding-top: 20px;
+    margin-top: 60px;
   }
   .section_projects .section__header {
     padding-top: 10px;
@@ -1270,12 +1267,14 @@ div.wpcf7 img.ajax-loader {
   .section_projects .section__desc {
     padding-top: 10px;
   }
+  .section_projects .projects_img {
+    width: 150px;
+  }
 }
 /*  E N D  O F  section_projects.less  */
 /*  S T A R T  O F  section_clients.less  */
 .section_clients {
   background-color: #4dbcd2;
-  min-height: 680px;
 }
 .section_clients .section__header {
   display: none;
@@ -1361,7 +1360,7 @@ div.wpcf7 img.ajax-loader {
 @media only screen and (min-width: 320px) and (max-width: 699px) {
   .section_clients .section__header {
     display: block;
-    margin-top: 40px;
+    margin-top: 60px;
   }
   .section_clients .clients {
     max-width: 450px;
@@ -1474,10 +1473,12 @@ div.wpcf7 img.ajax-loader {
 @media only screen and (min-width: 320px) and (max-width: 699px) {
   .section_partners .section__header {
     display: block;
+    margin-top: 60px;
   }
   .section_partners .partners {
     max-width: 450px;
     margin-top: 20px;
+    margin-bottom: 60px;
     padding: 0;
   }
   .section_partners .partner {
