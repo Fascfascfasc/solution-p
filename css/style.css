@@ -1388,6 +1388,7 @@ div.wpcf7 img.ajax-loader {
 /*  S T A R T  O F  section_partners.less  */
 .section_partners {
   background-color: #468cd4;
+  background-color: #0091b7;
 }
 .section_partners .section__header {
   display: none;
