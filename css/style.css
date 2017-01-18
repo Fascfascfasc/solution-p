@@ -183,14 +183,6 @@ textarea {
 .clearfix:after {
   clear: both;
 }
-.center-line {
-  position: absolute;
-  margin: 0 50%;
-  width: 1px;
-  height: 100%;
-  z-index: 10000;
-  background-color: red;
-}
 /*  E N D  O F  variables.less  */
 /*  S T A R T  O F  vendor-mixins.less  */
 /*  E N D  O F  vendor-mixins.less  */
